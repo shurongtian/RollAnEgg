@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     void SetScoreText()
     {
-        score.text = "Score: " + pickupsCollected.ToString();
+        score.text = "Score: " + pickupsCollected.ToString() + " / 26";
     }
 
 }
